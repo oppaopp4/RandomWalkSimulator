@@ -19,6 +19,8 @@ public class RandomWalk : MonoBehaviour
     {
         inputf_stick.GetComponent<InputField>().text = "50";
         inputf_limit.GetComponent<InputField>().text = "150";
+
+        run();
     }
 
     void Clear()
